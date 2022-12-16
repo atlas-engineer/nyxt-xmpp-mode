@@ -1,0 +1,7 @@
+#+TITLE:XMPP support prototype for Nyxt
+
+This repository is an archive for the XMPP client prototype mode for Nyxt. The code in here is unlikely to be maintained and updated due to ~cl-xmpp~ (even with [[https://github.com/atlas-engineer/cl-xmpp][Atlas fork]]) being overly hard to maintain and extend for the purposes of XMPP client.
+
+Dependencies of this code are:
+- ~nyxt~ (tested mainly on 2.2.4 and several 3-pre-releases, you might need tweaking the code depending on which Nyxt version you run).
+- ~cl-xmpp~ (with all the extensions: SASL, TLS).
